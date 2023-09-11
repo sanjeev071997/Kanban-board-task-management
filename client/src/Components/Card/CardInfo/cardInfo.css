@@ -1,0 +1,155 @@
+.cardinfo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 550px;
+    width: fit-content;
+    max-width: 650px;
+    height: fit-content;
+}
+
+.cardinfo_box {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardinfo_box_body {
+    width: fit-content;
+}
+
+.cardinfo_box_body .app_boards_board_add {
+    box-shadow: 0px 0px 0 0px #ccc;
+    background-color: #ccc;
+
+}
+
+.cardinfo_box_body .app_boards_board_add:hover{
+    box-shadow: 0px 0px 0 0px #ccc;
+}
+
+
+.cardinfo_box_title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.cardinfo_box_title svg {
+    height: 18px;
+    width: 18px;
+}
+
+.cardDate {
+    margin-top: 2%;
+}
+
+.cardinfo_box_colors {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 4px 8px;
+}
+
+/* .cardinfo_box_colors label {
+    border-radius: 40px;
+    background-color: gray;
+    color: #fff;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+} */
+
+.cardinfo_box li {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.cardinfo_box li {
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border:3px solid transparent;
+    transition: 300ms;
+}
+
+.cardinfo_box .active {
+    border: 3px solid yellow;
+}
+
+.cardinfo_box_progress-bar {
+    width: 100%;
+    border-radius: 30px;
+    height: 10px;
+    border: 1px solid #ccc;
+}
+
+.cardinfo_box_progress {
+    height: 10px;
+    border-radius: 30px;
+    /* background-color: skyblue; */
+    background-color: #1379ec;
+    transition: 200ms;
+}
+
+.cardinfo_box_progress-active {
+    background-color: limegreen;
+}
+
+.cardinfo_box_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardinfo_task{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.cardinfo_task p{
+    margin-top:13px ;
+    flex: 1;
+    line-height: 20px;
+}
+
+.cardinfo_box_checkbox p {
+    flex: 1;
+    line-height: 18px;
+}
+
+.cardinfo_box_checkbox .completed {
+    text-decoration-line: line-through;
+}
+
+.cardinfo_box input[type="date"] {
+    width: fit-content;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.cardinfo_box_labels {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cardinfo_box  .editIcon .app_boards_board_add{
+    box-shadow: 0px 0px 0 0px #fff;
+    background-color: #fff;
+    margin-top: 20px;
+}
+

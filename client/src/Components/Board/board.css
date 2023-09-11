@@ -1,0 +1,71 @@
+.board {
+    min-width: 290px;
+    width: 290px;
+    max-height: 100%;
+    flex-basis: 290px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.board_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.board_top_more {
+    cursor: pointer;
+    position: relative;
+}
+
+.board_dropdown {
+    margin-top: 20%;
+    background-color: #fff;
+    width: 130px !important;
+    
+    border-radius: 3px;
+    box-shadow: 1px 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.board_dropdown p {
+    cursor: pointer;
+    margin-top: 3%;
+    padding: 10px;
+}
+
+.board_top_title {
+    flex: 1;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.board_top_title span {
+    color: gray;
+}
+
+.board_cards {
+    flex: 1;
+    height: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.board_cards_add {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 2px 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.board_cards_add :hover {
+    box-shadow: 1px 2px 0 1px #ccc;
+}
